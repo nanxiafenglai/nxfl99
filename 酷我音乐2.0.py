@@ -4,6 +4,7 @@ Author: 南下风来
 Date: 2025-02-10 18:00:22
 LastEditTime: 2025-02-14 00:30
 '''
+'''
 酷我音乐签到脚本
 抓登录包url:http://ar.i.kuwo.cn/US_NEW/kuwo/login_kw的q值
 变量：kwyy = appUid#devId#q#phone#备注
