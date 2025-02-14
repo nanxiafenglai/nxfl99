@@ -7,8 +7,7 @@ LastEditors: 南下风来
 '''
 '''
 酷我音乐签到脚本
-抓包url:https://integralapi.kuwo.cn/api/v1/online/sign/v1/earningSignIn/newDoListen
-的loginUid, loginSid, appUid的值
+抓登录包url:http://ar.i.kuwo.cn/US_NEW/kuwo/login_kw的q值
 变量：kwyy = appUid#devId#q#phone
 '''
 
