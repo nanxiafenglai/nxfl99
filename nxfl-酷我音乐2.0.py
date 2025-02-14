@@ -223,6 +223,11 @@ def main():
                 continue
 
 if __name__ == '__main__':
-    txt = f'欢迎使用南下风来脚本，别问我为什么叫南下风来，我只是个名字而已。\n\n有问题可以到无界社区找我，当然，找我可能也没啥用就是了'
-    print(txt)
-    main()
+    file_content = None
+    try:
+        with open('nxfl.txt', 'r', encoding='utf-8') as file:
+            file_content = file.read()
+            print(f'{file_content} \n')
+    except FileNotFoundError:
+        print("错误：nxfl.txt文件未找到，请确认文件存在")
+    main(file_content)
