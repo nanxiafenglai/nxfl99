@@ -7,7 +7,9 @@ LastEditors: 南下风来
 '''
 '''
 酷我音乐签到脚本
-抓登录包url:http://ar.i.kuwo.cn/US_NEW/kuwo/login_kw的q值
+抓登录包url:安卓：http://ar.i.kuwo.cn/US_NEW/kuwo/login_kw的q值
+ios：http://ip.i.kuwo.cn/US_NEW/kuwo/login_kw的q值(需要自行替换LOGIN_URL)
+
 变量：kuwo = loginUid,#loginSid#appUid#备注
 '''
 
