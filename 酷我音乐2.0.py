@@ -199,14 +199,14 @@ def main():
                     
                 logging.info(f'账号：{loginUid},任务开始'.center(30, '_'))
                 tasks = [
-                    # (sign, (loginUid, loginSid, appUid,devId)),
-                    # (videoadver, (loginUid, loginSid, appUid)),
-                    (box, (loginUid, loginSid, appUid, get_time_period())),
-                    # (lucky, (loginUid, loginSid, appUid)),
-                    # (listen, (loginUid, loginSid, appUid)),
-                    # (lambda *args: execute_task(*args, '听歌', {'loginUid': loginUid, 'loginSid': loginSid, 'appUid': appUid, 'terminal': 'ar', 'from': 'mobile', 'goldNum': 18, 'clickExtraGoldNum': 0}), (loginUid, loginSid, appUid)),
-                    # (lambda *args: execute_task(*args, '听故事', {'loginUid': loginUid, 'loginSid': loginSid, 'appUid': appUid, 'terminal': 'ar', 'from': 'novel', 'goldNum': 18, 'clickExtraGoldNum': 0}), (loginUid, loginSid, appUid)),
-                    # (lambda *args: execute_task(*args, '收藏', {'loginUid': loginUid, 'loginSid': loginSid, 'appUid': appUid, 'terminal': 'ar', 'from': 'collect', 'goldNum': 18, 'clickExtraGoldNum': 0}), (loginUid, loginSid, appUid))
+                    (sign, (loginUid, loginSid, appUid,devId)),
+                    (videoadver, (loginUid, loginSid, appUid)),
+                    # (box, (loginUid, loginSid, appUid, get_time_period())),
+                    (lucky, (loginUid, loginSid, appUid)),
+                    (listen, (loginUid, loginSid, appUid)),
+                    (lambda *args: execute_task(*args, '听歌', {'loginUid': loginUid, 'loginSid': loginSid, 'appUid': appUid, 'terminal': 'ar', 'from': 'mobile', 'goldNum': 18, 'clickExtraGoldNum': 0}), (loginUid, loginSid, appUid)),
+                    (lambda *args: execute_task(*args, '听故事', {'loginUid': loginUid, 'loginSid': loginSid, 'appUid': appUid, 'terminal': 'ar', 'from': 'novel', 'goldNum': 18, 'clickExtraGoldNum': 0}), (loginUid, loginSid, appUid)),
+                    (lambda *args: execute_task(*args, '收藏', {'loginUid': loginUid, 'loginSid': loginSid, 'appUid': appUid, 'terminal': 'ar', 'from': 'collect', 'goldNum': 18, 'clickExtraGoldNum': 0}), (loginUid, loginSid, appUid))
                 ]
                 
                 for task in tasks:
